@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"
+        />
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:title="Log out"
+        android:icon="@drawable/sign_out_icon"
+        />
+
+</menu>

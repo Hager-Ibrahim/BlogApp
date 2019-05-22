@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header_container"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_header_user"
+        android:layout_height="55dp"
+        android:layout_width="55dp"
+        tools:src ="@mipmap/ic_launcher_round"
+        />
+    <TextView
+        android:id="@+id/nav_header_name"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="Hager Ibrahim"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/nav_header_mail"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="hajer.ibr@gmail.com"
+        />
+</LinearLayout>
